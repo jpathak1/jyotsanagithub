@@ -14,6 +14,6 @@
 				"secretName": "AzureDBAuth"
 			}
 		},
-		"description": "This is Azure SQL connection"
+		"description": "This is Azure SQL connection for test"
 	}
 }

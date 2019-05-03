@@ -13,6 +13,7 @@
 				},
 				"secretName": "AzureDBAuth"
 			}
-		}
+		},
+		"description": "This is Azure SQL connection"
 	}
 }

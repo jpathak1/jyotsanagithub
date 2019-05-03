@@ -1,0 +1,40 @@
+{
+	"name": "DestinationDataset_qvl",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "EmployeeID",
+				"type": "nchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "Lastname",
+				"type": "nchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "Address",
+				"type": "nchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "Balance",
+				"type": "nchar",
+				"precision": 0,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[EmployeeAddress]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,14 @@
+{
+	"name": "SourceDataset_v47",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SQLLinkedServiceforonpremSQL",
+			"type": "LinkedServiceReference"
+		},
+		"type": "SqlServerTable",
+		"typeProperties": {
+			"tableName": "[dbo].[EmployeeDetails]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

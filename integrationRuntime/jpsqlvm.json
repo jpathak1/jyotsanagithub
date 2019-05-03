@@ -1,0 +1,6 @@
+{
+	"name": "jpsqlvm",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

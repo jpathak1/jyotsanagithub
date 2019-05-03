@@ -1,0 +1,34 @@
+{
+	"name": "SourceDataset_qvl",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SQLLinkedServiceforonpremSQL",
+			"type": "LinkedServiceReference"
+		},
+		"type": "SqlServerTable",
+		"structure": [
+			{
+				"name": "FirstName",
+				"type": "String",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "LastName",
+				"type": "String",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "EmployeeID",
+				"type": "String",
+				"precision": 0,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[EmployeeDetails]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
